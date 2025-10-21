@@ -40,6 +40,7 @@
             font-size: 1.8rem;
             font-weight: 900;
             letter-spacing: 0.5px;
+            text-transform: uppercase;
         }
 
         .nav-links {
@@ -63,7 +64,6 @@
 
         /* Hero Section */
         .hero {
-            /* Kept dark overlay for contrast */
             background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
                         url('herobg.jpg')
                         center center/cover no-repeat;
@@ -76,10 +76,10 @@
         }
 
         .hero-content {
-            padding: 40px
+            padding: 40px;
             border-radius: 15px;
             max-width: 600px;
-            box-shadow: 0 8px 30px rgba(255, 255, 255, 0.05); /* Subtle white glow for shine */
+            box-shadow: 0 8px 30px rgba(255, 255, 255, 0.05); 
         }
 
         .hero h2 {
